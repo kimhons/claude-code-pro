@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code Pro - Supercharge Your Development Workflow</title>
+    <meta name="description" content="Transform Claude Code into an intelligent development partner. Handle 200k+ LOC projects with full automation, testing, and deployment.">
+    <meta name="keywords" content="Claude Code, AI development, automation, large projects, enterprise development">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Claude Code Pro - Enterprise Development Automation">
+    <meta property="og:description" content="Supercharge Claude Code for 200k+ LOC projects with full automation">
+    <meta property="og:image" content="https://claude-code-pro.com/og-image.png">
+    <meta property="og:url" content="https://claude-code-pro.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Claude Code Pro">
+    <meta name="twitter:description" content="Enterprise-scale development automation">
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .feature-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .pricing-card { transition: transform 0.3s ease; }
+        .pricing-card:hover { transform: scale(1.05); }
+        .hero-animation { animation: float 6s ease-in-out infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-indigo-600">Claude Code Pro</h1>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-indigo-600">Features</a>
+                    <a href="#pricing" class="text-gray-700 hover:text-indigo-600">Pricing</a>
+                    <a href="#docs" class="text-gray-700 hover:text-indigo-600">Docs</a>
+                    <a href="https://github.com/kimhons/claude-code-pro" class="text-gray-700 hover:text-indigo-600">GitHub</a>
+                    <a href="#signup" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+            <div class="text-center">
+                <div class="hero-animation">
+                    <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
+                        Supercharge <span class="text-yellow-300">Claude Code</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl text-indigo-100 mb-8 max-w-3xl mx-auto">
+                        Transform Claude Code into an intelligent development partner that handles 200k+ LOC projects with full automation, testing, and deployment.
+                    </p>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <a href="#signup" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition duration-300">
+                        Start Free Trial
+                    </a>
+                    <a href="https://github.com/kimhons/claude-code-pro" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">
+                        View on GitHub
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-yellow-300">200k+</div>
+                        <div class="text-indigo-100">Lines of Code Supported</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-yellow-300">80%</div>
+                        <div class="text-indigo-100">Development Time Saved</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-yellow-300">99%</div>
+                        <div class="text-indigo-100">Deployment Success Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Powerful Features</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Everything you need to transform your development workflow</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-indigo-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Intelligent Context Management</h3>
+                    <p class="text-gray-600">Handle projects with 200k+ lines of code through hierarchical context chunking and smart file prioritization.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-robot text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Full Automation Pipeline</h3>
+                    <p class="text-gray-600">AI-powered approval system with automated testing, deployment, and continuous monitoring.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Advanced Tool Integration</h3>
+                    <p class="text-gray-600">Browser automation, MCP support, secure file access, and web research capabilities.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border">
+                    <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-red-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Enterprise Security</h3>
+                    <p class="text-gray-600">Automated security scanning, vulnerability detection, and compliance validation.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-yellow-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Performance Monitoring</h3>
+                    <p class="text-gray-600">Real-time performance tracking, optimization suggestions, and automated improvements.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-rocket text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">One-Click Deployment</h3>
+                    <p class="text-gray-600">Safe, tested deployments with automatic rollback and health monitoring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Simple, Transparent Pricing</h2>
+                <p class="text-xl text-gray-600">Choose the plan that fits your needs</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Starter Plan -->
+                <div class="pricing-card bg-white rounded-xl shadow-lg p-8 border">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Starter</h3>
+                        <div class="text-4xl font-bold text-gray-900 mb-2">Free</div>
+                        <p class="text-gray-600 mb-8">Perfect for individual developers</p>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Projects up to 50k LOC</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Basic automation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Community support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Basic documentation</li>
+                    </ul>
+                    <a href="#signup" class="w-full bg-gray-200 text-gray-800 py-3 px-6 rounded-lg text-center block hover:bg-gray-300 transition duration-300">Get Started</a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card bg-indigo-600 rounded-xl shadow-lg p-8 border-4 border-indigo-600 transform scale-105">
+                    <div class="text-center">
+                        <div class="bg-yellow-400 text-gray-900 px-4 py-1 rounded-full text-sm font-semibold mb-4 inline-block">Most Popular</div>
+                        <h3 class="text-2xl font-bold text-white mb-4">Pro</h3>
+                        <div class="text-4xl font-bold text-white mb-2">$29<span class="text-lg">/month</span></div>
+                        <p class="text-indigo-100 mb-8">Perfect for professional developers</p>
+                    </div>
+                    <ul class="space-y-4 mb-8 text-white">
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-3"></i>Projects up to 200k+ LOC</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-3"></i>Advanced automation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-3"></i>Priority support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-3"></i>Browser automation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-3"></i>MCP integration</li>
+                    </ul>
+                    <a href="#signup" class="w-full bg-yellow-400 text-gray-900 py-3 px-6 rounded-lg text-center block hover:bg-yellow-300 transition duration-300 font-semibold">Start Free Trial</a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card bg-white rounded-xl shadow-lg p-8 border">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Enterprise</h3>
+                        <div class="text-4xl font-bold text-gray-900 mb-2">$99<span class="text-lg">/month</span></div>
+                        <p class="text-gray-600 mb-8">Perfect for teams and organizations</p>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Unlimited project size</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Custom automation rules</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Dedicated support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Team collaboration</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>White-label options</li>
+                    </ul>
+                    <a href="#signup" class="w-full bg-indigo-600 text-white py-3 px-6 rounded-lg text-center block hover:bg-indigo-700 transition duration-300">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="signup" class="py-20 gradient-bg">
+        <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-white mb-6">Ready to Supercharge Your Development?</h2>
+            <p class="text-xl text-indigo-100 mb-8">Join thousands of developers who have transformed their workflow with Claude Code Pro</p>
+            
+            <div class="bg-white rounded-xl p-8 shadow-2xl max-w-md mx-auto">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">Start Your Free Trial</h3>
+                <form class="space-y-4">
+                    <input type="email" placeholder="Enter your email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-3 px-6 rounded-lg hover:bg-indigo-700 transition duration-300 font-semibold">
+                        Get Started Free
+                    </button>
+                </form>
+                <p class="text-sm text-gray-600 mt-4">No credit card required. 14-day free trial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Claude Code Pro</h3>
+                    <p class="text-gray-400">Supercharge your development workflow with intelligent automation.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#features" class="hover:text-white">Features</a></li>
+                        <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+                        <li><a href="#docs" class="hover:text-white">Documentation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="mailto:contact@aliennova.com" class="hover:text-white">Contact</a></li>
+                        <li><a href="#" class="hover:text-white">Discord</a></li>
+                        <li><a href="https://github.com/kimhons/claude-code-pro/issues" class="hover:text-white">Issues</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/kimhons/claude-code-pro" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Kimal Honour Djam (AlienNova). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest! We\'ll be in touch soon.');
+        });
+    </script>
+</body>
+</html>
+
